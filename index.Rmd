@@ -84,7 +84,7 @@ barplot(
   height = ca_covid19.confirmados$confirmados,
   names.arg = ca_covid19.confirmados$pais,
   xlab = "Pais",
-  ylab = "Confrimados",
+  ylab = "Confirmados",
   main = "Casos confirmados de Covid-19 en países centroamericanos y DOM"
        )   
 ```
@@ -103,6 +103,7 @@ barplot(
   main = "Casos activos de Covid-19 en países centroamericanos y DOM"
        )
 ```
+
 - (25%) Casos fallecidos.
 ```{r}
 fallecidos.ordenado <- order(ca_covid19$fallecidos, decreasing = TRUE)
